@@ -1,0 +1,23 @@
+#This file only captures the console output when you run the code 
+## pytest -v test_hypothesis_networkx_Prim_Dijkstra.py
+
+============================== test session starts ==============================
+platform win32 -- Python 3.10.19, pytest-9.0.2, pluggy-1.6.0 -- C:\Users\nitis\anaconda3\envs\myenv\python.exe
+cachedir: .pytest_cache
+hypothesis profile 'default'
+rootdir: D:\IISC\DSGA\DSGA_project_26113_26240
+plugins: hypothesis-6.151.10
+collected 10 items                                                               
+
+test_hypothesis_networkx_Prim_Dijkstra.py::test_prim_edge_count PASSED     [ 10%]
+test_hypothesis_networkx_Prim_Dijkstra.py::test_prim_connectivity_and_spanning PASSED [ 20%]     
+test_hypothesis_networkx_Prim_Dijkstra.py::test_prim_subgraph PASSED       [ 30%]
+test_hypothesis_networkx_Prim_Dijkstra.py::test_prim_acyclicity PASSED     [ 40%]
+test_hypothesis_networkx_Prim_Dijkstra.py::test_prim_weight_equals_kruskal PASSED [ 50%]
+test_hypothesis_networkx_Prim_Dijkstra.py::test_dijkstra_path_validity PASSED [ 60%]
+test_hypothesis_networkx_Prim_Dijkstra.py::test_dijkstra_self_distance_is_zero PASSED [ 70%]     
+test_hypothesis_networkx_Prim_Dijkstra.py::test_dijkstra_symmetry PASSED   [ 80%]
+test_hypothesis_networkx_Prim_Dijkstra.py::test_dijkstra_triangle_inequality PASSED [ 90%]       
+test_hypothesis_networkx_Prim_Dijkstra.py::test_dijkstra_subpath_optimality PASSED [100%]        
+
+============================== 10 passed in 9.80s ===============================
